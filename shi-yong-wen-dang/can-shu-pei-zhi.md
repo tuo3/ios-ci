@@ -2,6 +2,10 @@ config.json 配置说明
 
 
 
+* app\_name App名称
+
+
+
 ```
 "khmj": {
     "app_name":"多多开化麻将",  
