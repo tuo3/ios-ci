@@ -1,13 +1,42 @@
 config.json 配置说明
 
+##### 一级数组
 
+项目的缩写，例如 临海麻将=&gt;lhmj
+
+##### 二级数组
+
+项目的通用参数
 
 * app\_name App名称
+
+* url\_scheme  同魔窗配置
+* wechat\_appid 微信AppId
+* wechat\_appsecret 
+* splashscreen\_logo
+* enterprise
+* app-store 
+
+##### 三级数组
+
+具体打包方式下的参数
+
+* bundle\_id 
+* apple\_id
+* apple\_passwd
+* apple\_team\_id
+* apple\_codesigning\_identity
+* channel\_no
+* magicwindow\_appkey
+* getui\_appid
+* getui\_appkey
+* getui\_appsecret
+
+##### 完整示例：
 
 
 
 ```
-"khmj": {
     "app_name":"多多开化麻将",  
     "url_scheme":"ddkhmj",
     "wechat_appid":"wx7f90037f86595d61",
