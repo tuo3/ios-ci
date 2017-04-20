@@ -11,6 +11,7 @@ config.json 配置说明
 * app\_name App名称
 
 * url\_scheme  同魔窗配置
+
 * wechat\_appid 微信AppId
 * wechat\_appsecret 
 * splashscreen\_logo
@@ -32,9 +33,9 @@ config.json 配置说明
 * getui\_appkey
 * getui\_appsecret
 
+
+
 ##### 完整示例：
-
-
 
 ```
     "app_name":"多多开化麻将",  
